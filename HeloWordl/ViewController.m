@@ -1,14 +1,10 @@
-//
-//  ViewController.m
-//  HeloWordl
-//
-//  Created by Диана Корсак on 18.06.13.
-//  Copyright (c) 2013 Диана Корсак. All rights reserved.
-//
+
 
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
+- (IBAction)pushButton:(id)sender;
 
 @end
 
@@ -26,4 +22,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pushButton:(id)sender {
+    _label.text = @"Hello world!";
+}
 @end
