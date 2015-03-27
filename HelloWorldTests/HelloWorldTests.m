@@ -1,6 +1,6 @@
 //
-//  HeloWordlTests.m
-//  HeloWordlTests
+//  HelloWorldTests.m
+//  HelloWorldTests
 //
 //  Created by Диана Корсак on 18.06.13.
 //  Copyright (c) 2013 Диана Корсак. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface HeloWordlTests : XCTestCase
+@interface HelloWorldTests : XCTestCase
 
 @end
 
-@implementation HeloWordlTests
+@implementation HelloWorldTests
 
 - (void)setUp
 {
