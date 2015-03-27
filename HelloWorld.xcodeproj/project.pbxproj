@@ -20,7 +20,7 @@
 		A12888FF1770553900FE6B1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12888DE1770553900FE6B1A /* Foundation.framework */; };
 		A12889001770553900FE6B1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12888E21770553900FE6B1A /* UIKit.framework */; };
 		A12889081770553900FE6B1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A12889061770553900FE6B1A /* InfoPlist.strings */; };
-		A128890A1770553900FE6B1A /* HeloWordlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12889091770553900FE6B1A /* HeloWordlTests.m */; };
+		A128890A1770553900FE6B1A /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12889091770553900FE6B1A /* HelloWorldTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,30 +29,30 @@
 			containerPortal = A12888D31770553900FE6B1A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A12888DA1770553900FE6B1A;
-			remoteInfo = HeloWordl;
+			remoteInfo = HelloWorld;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A12888DB1770553900FE6B1A /* HeloWordl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeloWordl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12888DB1770553900FE6B1A /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12888DE1770553900FE6B1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A12888E01770553900FE6B1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A12888E21770553900FE6B1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A12888E61770553900FE6B1A /* HeloWordl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeloWordl-Info.plist"; sourceTree = "<group>"; };
+		A12888E61770553900FE6B1A /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
 		A12888E81770553900FE6B1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A12888EA1770553900FE6B1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A12888EC1770553900FE6B1A /* HeloWordl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeloWordl-Prefix.pch"; sourceTree = "<group>"; };
+		A12888EC1770553900FE6B1A /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		A12888ED1770553900FE6B1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A12888EE1770553900FE6B1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A12888F11770553900FE6B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12888F31770553900FE6B1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A12888F41770553900FE6B1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A12888F61770553900FE6B1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A12888FC1770553900FE6B1A /* HeloWordlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeloWordlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12888FC1770553900FE6B1A /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12888FD1770553900FE6B1A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A12889051770553900FE6B1A /* HeloWordlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeloWordlTests-Info.plist"; sourceTree = "<group>"; };
+		A12889051770553900FE6B1A /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		A12889071770553900FE6B1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A12889091770553900FE6B1A /* HeloWordlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeloWordlTests.m; sourceTree = "<group>"; };
+		A12889091770553900FE6B1A /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		A12888D21770553900FE6B1A = {
 			isa = PBXGroup;
 			children = (
-				A12888E41770553900FE6B1A /* HeloWordl */,
-				A12889031770553900FE6B1A /* HeloWordlTests */,
+				A12888E41770553900FE6B1A /* HelloWorld */,
+				A12889031770553900FE6B1A /* HelloWorldTests */,
 				A12888DD1770553900FE6B1A /* Frameworks */,
 				A12888DC1770553900FE6B1A /* Products */,
 			);
@@ -92,8 +92,8 @@
 		A12888DC1770553900FE6B1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A12888DB1770553900FE6B1A /* HeloWordl.app */,
-				A12888FC1770553900FE6B1A /* HeloWordlTests.xctest */,
+				A12888DB1770553900FE6B1A /* HelloWorld.app */,
+				A12888FC1770553900FE6B1A /* HelloWorldTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A12888E41770553900FE6B1A /* HeloWordl */ = {
+		A12888E41770553900FE6B1A /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
 				A12888ED1770553900FE6B1A /* AppDelegate.h */,
@@ -120,33 +120,33 @@
 				A12888F61770553900FE6B1A /* Images.xcassets */,
 				A12888E51770553900FE6B1A /* Supporting Files */,
 			);
-			path = HeloWordl;
+			path = HelloWorld;
 			sourceTree = "<group>";
 		};
 		A12888E51770553900FE6B1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A12888E61770553900FE6B1A /* HeloWordl-Info.plist */,
+				A12888E61770553900FE6B1A /* HelloWorld-Info.plist */,
 				A12888E71770553900FE6B1A /* InfoPlist.strings */,
 				A12888EA1770553900FE6B1A /* main.m */,
-				A12888EC1770553900FE6B1A /* HeloWordl-Prefix.pch */,
+				A12888EC1770553900FE6B1A /* HelloWorld-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A12889031770553900FE6B1A /* HeloWordlTests */ = {
+		A12889031770553900FE6B1A /* HelloWorldTests */ = {
 			isa = PBXGroup;
 			children = (
-				A12889091770553900FE6B1A /* HeloWordlTests.m */,
+				A12889091770553900FE6B1A /* HelloWorldTests.m */,
 				A12889041770553900FE6B1A /* Supporting Files */,
 			);
-			path = HeloWordlTests;
+			path = HelloWorldTests;
 			sourceTree = "<group>";
 		};
 		A12889041770553900FE6B1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A12889051770553900FE6B1A /* HeloWordlTests-Info.plist */,
+				A12889051770553900FE6B1A /* HelloWorldTests-Info.plist */,
 				A12889061770553900FE6B1A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A12888DA1770553900FE6B1A /* HeloWordl */ = {
+		A12888DA1770553900FE6B1A /* HelloWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A128890D1770553900FE6B1A /* Build configuration list for PBXNativeTarget "HeloWordl" */;
+			buildConfigurationList = A128890D1770553900FE6B1A /* Build configuration list for PBXNativeTarget "HelloWorld" */;
 			buildPhases = (
 				A12888D71770553900FE6B1A /* Sources */,
 				A12888D81770553900FE6B1A /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = HeloWordl;
-			productName = HeloWordl;
-			productReference = A12888DB1770553900FE6B1A /* HeloWordl.app */;
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = A12888DB1770553900FE6B1A /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A12888FB1770553900FE6B1A /* HeloWordlTests */ = {
+		A12888FB1770553900FE6B1A /* HelloWorldTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A12889101770553900FE6B1A /* Build configuration list for PBXNativeTarget "HeloWordlTests" */;
+			buildConfigurationList = A12889101770553900FE6B1A /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
 			buildPhases = (
 				A12888F81770553900FE6B1A /* Sources */,
 				A12888F91770553900FE6B1A /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				A12889021770553900FE6B1A /* PBXTargetDependency */,
 			);
-			name = HeloWordlTests;
-			productName = HeloWordlTests;
-			productReference = A12888FC1770553900FE6B1A /* HeloWordlTests.xctest */;
+			name = HelloWorldTests;
+			productName = HelloWorldTests;
+			productReference = A12888FC1770553900FE6B1A /* HelloWorldTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A12888D61770553900FE6B1A /* Build configuration list for PBXProject "HeloWordl" */;
+			buildConfigurationList = A12888D61770553900FE6B1A /* Build configuration list for PBXProject "HelloWorld" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A12888DA1770553900FE6B1A /* HeloWordl */,
-				A12888FB1770553900FE6B1A /* HeloWordlTests */,
+				A12888DA1770553900FE6B1A /* HelloWorld */,
+				A12888FB1770553900FE6B1A /* HelloWorldTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A128890A1770553900FE6B1A /* HeloWordlTests.m in Sources */,
+				A128890A1770553900FE6B1A /* HelloWorldTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		A12889021770553900FE6B1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A12888DA1770553900FE6B1A /* HeloWordl */;
+			target = A12888DA1770553900FE6B1A /* HelloWorld */;
 			targetProxy = A12889011770553900FE6B1A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -375,8 +375,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HeloWordl/HeloWordl-Prefix.pch";
-				INFOPLIST_FILE = "HeloWordl/HeloWordl-Info.plist";
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -388,8 +388,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HeloWordl/HeloWordl-Prefix.pch";
-				INFOPLIST_FILE = "HeloWordl/HeloWordl-Info.plist";
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,19 +398,19 @@
 		A12889111770553900FE6B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeloWordl.app/HeloWordl";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HeloWordl/HeloWordl-Prefix.pch";
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HeloWordlTests/HeloWordlTests-Info.plist";
+				INFOPLIST_FILE = "HelloWorldTests/HelloWorldTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -420,15 +420,15 @@
 		A12889121770553900FE6B1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeloWordl.app/HeloWordl";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HeloWordl/HeloWordl-Prefix.pch";
-				INFOPLIST_FILE = "HeloWordlTests/HeloWordlTests-Info.plist";
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorldTests/HelloWorldTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -438,7 +438,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A12888D61770553900FE6B1A /* Build configuration list for PBXProject "HeloWordl" */ = {
+		A12888D61770553900FE6B1A /* Build configuration list for PBXProject "HelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A128890B1770553900FE6B1A /* Debug */,
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A128890D1770553900FE6B1A /* Build configuration list for PBXNativeTarget "HeloWordl" */ = {
+		A128890D1770553900FE6B1A /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A128890E1770553900FE6B1A /* Debug */,
@@ -455,7 +455,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A12889101770553900FE6B1A /* Build configuration list for PBXNativeTarget "HeloWordlTests" */ = {
+		A12889101770553900FE6B1A /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A12889111770553900FE6B1A /* Debug */,
